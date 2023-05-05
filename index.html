@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Master</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body> 
+    <div class="counters">
+        <div class="Timer"></div>
+        <div class="Error"></div>
+        <div class="Accuracy"></div> 
+        <div class="WPM"></div> 
+    </div> 
+
+    <select name="Time" id="Time">
+        <option value="No time">select the time</option>
+        <option value="5">5</option>    
+        <option value="15">15</option>
+        <option value="30">30</option>
+        <option value="60">60</option>
+        <option value="120">120</option>
+    </select> 
+    
+ 
+    <div class="container">
+        <h2 id="Start">Press Enter to Start</h2>
+    </div>
+
+    <div class="Result">
+        <h2>RESULT</h2>
+        <div class="First">
+            <h3>Total Errors</h3>
+            <div class="ErrorScore">0</div>
+        </div><div class="Second">
+            <h3>Words Per Minute</h3>
+            <div class="WPMScore">0</div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body> 
+</html>
